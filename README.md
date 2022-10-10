@@ -1,5 +1,7 @@
 # 天空导航 
 
+> 去编辑时 请把 https http www 去掉 ，比如 `zhihu.com` `apple.com.cn` 
+
 支持 键盘事件
 
 
@@ -10,6 +12,3 @@
 ## install 
 
 `parcel src/index.html` 
-
-
-
