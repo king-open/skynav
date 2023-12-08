@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+kbd {
+  text-transform: uppercase;
+  border: 1px solid red;
+  width: 4em;
+  height: 4em;
+  display: inline-block;
+  position: relative;
+}
+
+kbd > button {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+kbd:hover > button {
+  display: inline-block;
+}
+
+body {
+  background: gray url("sand.5d8a9f2b.png") center no-repeat;
+}
+
+main {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+#main {
+  display: inline-block;
+}
+
+#main > div:nth-child(2) {
+  margin-left: -22px;
+}
+
+#main > div:nth-child(3) {
+  margin-left: -80px;
+}
+
+.wrapper {
+  background: #fff3;
+  border-radius: 10px;
+}
+
+.key {
+  color: #c5c5c5;
+  background: linear-gradient(#292929 0%, #111 100%);
+  border: 1px solid #373737;
+  border-radius: 6px;
+  width: 50px;
+  height: 40px;
+  font-family: Helvetica;
+  font-size: 16px;
+  position: relative;
+  box-shadow: 0 0 0 1px #1a1b1c, 0 0 0 2px #1f2020, 0 3px 0 2px #080808;
+}
+
+.row {
+  margin: 20px;
+}
+
+.row .key {
+  margin: 0 10px;
+}
+
+.key img {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  bottom: 2px;
+  left: 4px;
+}
+
+.key .text {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

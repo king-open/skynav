@@ -63,7 +63,7 @@ function init(){
     '2': {0:'z',1:'x',2:'c',3:'v',4:'b',5:'n',6:'m',length:7},
     'length': 3
   }
-  var hash = {'q': 'qq.com', 'w': 'weibo.com', 'e': 'ele.me', 'r': 'renren.com', 't': 'tianya.com', 'y': 'youtube.com', 'u': 'uc.com' , 'i': 'iqiyi.com', 'o': 'opera.com', 'p': undefined, 'a': 'acfun.tv', 's': 'sohu.com', 'z': 'zhihu.com', 'm': 'www.mcdonalds.com.cn'
+  var hash = {'q': 'undefined', 'w': 'weibo.com', 'e': 'undefined', 'r': 'renren.com', 't': 'undefined', 'y': 'youtube.com', 'u': 'unocss.dev' , 'i': 'iqiyi.com', 'o': 'undefined', 'p': undefined, 'a': 'acfun.tv', 's': 'sohu.com', 'z': 'zhihu.com', 'm': 'www.mcdonalds.com.cn'
   }
   // 取出 localStorage 中的 zzz 对应的 hash
   var hashInLocalStorage = getFromLocalStorage('zzz') 
