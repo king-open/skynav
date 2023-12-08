@@ -12,3 +12,9 @@
 ## install 
 
 `parcel src/index.html` 
+
+
+## 迭代
+
+* v0.0.1 发布
+* v0.0.2 把🤷的字母添加 undefined  不跳转
