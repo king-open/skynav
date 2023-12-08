@@ -1,6 +1,6 @@
 {
   "name": "skynav",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "> 去编辑时 请把 https http www 去掉 ，比如 `zhihu.com` `apple.com.cn`",
   "main": "index.js",
   "scripts": {
